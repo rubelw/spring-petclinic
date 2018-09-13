@@ -78,13 +78,13 @@
     <!-- _vp_ 20151024 20151027 -->
     <distributionManagement>
       <repository>
-         <id>deployment</id>
-         <name>Internal Releases</name>
+         <id>releases</id>
+         <name>Releases</name>
          <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
       </repository>
       <snapshotRepository>
-         <id>deployment</id>
-         <name>Internal Snapshot Releases</name>
+         <id>snapshots</id>
+         <name>Snapshot Releases</name>
          <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
       </snapshotRepository>
     </distributionManagement>
