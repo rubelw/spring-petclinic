@@ -207,12 +207,12 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time-hibernate</artifactId>
-            <version>${jodatime-hibernate.version}</version>
+            <version>LATEST</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time-jsptags</artifactId>
-            <version>${jodatime-jsptags.version}</version>
+            <version>LATEST</version>
         </dependency>
 
         <!-- Databases - Uses HSQL by default -->
