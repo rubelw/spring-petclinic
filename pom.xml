@@ -60,13 +60,11 @@
     </dependencyManagement>
 	<repositories>
 	 <repository>
-	     <updatePolicy>always</updatePolicy>
              <id>maven-releases</id>
              <url>http://127.0.0.1:8081/repository/maven-releases/</url>
           </repository>
 	  <repository>
              <id>maven-snapshots</id>
-             <updatePolicy>always</updatePolicy>
              <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
 		 <snapshots>
 		 <enabled>true</enabled>
